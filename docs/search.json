@@ -1,31 +1,45 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Statistics (Data Science) @ BYU · CS & Math Minor\nEmail: bnandin1@byu.edu · GitHub: nandinnnnnnnnnnnn · LinkedIn: Nandintsetseg Batsaikhan \n\n\n\nMy name is Nandintsetseg Batsaikhan, and I am an undergraduate student at Brigham Young University majoring in Statistics with a Data Science emphasis, with minors in Computer Science and Mathematics. I am interested in data analysis, statistical modeling, and building data-driven applications that solve real-world problems.\nMy academic work has focused on probability, statistical inference, SQL databases, and programming in Python and R. My long-term goal is to work in a data-focused role where I can combine statistics, programming, and critical thinking to support decision-making.\n\n\n\n\n\nB.S. in Statistics (Data Science Emphasis) – Brigham Young University, Expected 2027\nMinors: Computer Science, Mathematics\nRelevant Coursework: Probability & Inference, Statistical Modeling, Data Science, SQL & Databases, Programming in Python and R, Object Oriented Programming\n\n\n\n\n\n\n\n\nProgramming: Python, R, SQL, JavaScript, C\nData Analysis: Pandas, NumPy, statistical modeling, simulations\nVisualization: ggplot2\nWeb & Tools: Git, GitHub, React, Node.js, Express\nOther: Data cleaning, hypothesis testing\n\n\n\n\n\nData science and analytics\nStatistical modeling and probability\nWeb applications with data-driven features\nApplying data to real-world and social problems\n\n\n\n\n\n\n\nStrengthen my foundation in statistical reasoning and data science tools\nBuild a strong portfolio of data analysis and software projects\nGain internship experience in data science, analytics, or related fields\nPursue a career where data, technology, and problem solving intersect\n\n\n\n\n\n\nEmail: bnandin1@byu.edu\nGitHub: github.com/nandinnnnnnnnnnnn\nLinkedIn: Nandintsetseg Batsaikhan\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
-    "objectID": "index.html#about-this-portfolio",
-    "href": "index.html#about-this-portfolio",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
     "section": "",
-    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+    "text": "My name is Nandintsetseg Batsaikhan, and I am an undergraduate student at Brigham Young University majoring in Statistics with a Data Science emphasis, with minors in Computer Science and Mathematics. I am interested in data analysis, statistical modeling, and building data-driven applications that solve real-world problems.\nMy academic work has focused on probability, statistical inference, SQL databases, and programming in Python and R. My long-term goal is to work in a data-focused role where I can combine statistics, programming, and critical thinking to support decision-making."
   },
   {
-    "objectID": "index.html#skills-im-learning",
-    "href": "index.html#skills-im-learning",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
     "section": "",
-    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+    "text": "B.S. in Statistics (Data Science Emphasis) – Brigham Young University, Expected 2027\nMinors: Computer Science, Mathematics\nRelevant Coursework: Probability & Inference, Statistical Modeling, Data Science, SQL & Databases, Programming in Python and R, Object Oriented Programming"
   },
   {
-    "objectID": "index.html#my-projects",
-    "href": "index.html#my-projects",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "about.html#skills-interests",
+    "href": "about.html#skills-interests",
+    "title": "About Me",
     "section": "",
-    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Programming: Python, R, SQL, JavaScript, C\nData Analysis: Pandas, NumPy, statistical modeling, simulations\nVisualization: ggplot2\nWeb & Tools: Git, GitHub, React, Node.js, Express\nOther: Data cleaning, hypothesis testing\n\n\n\n\n\nData science and analytics\nStatistical modeling and probability\nWeb applications with data-driven features\nApplying data to real-world and social problems"
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "",
+    "text": "Strengthen my foundation in statistical reasoning and data science tools\nBuild a strong portfolio of data analysis and software projects\nGain internship experience in data science, analytics, or related fields\nPursue a career where data, technology, and problem solving intersect"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "",
+    "text": "Email: bnandin1@byu.edu\nGitHub: github.com/nandinnnnnnnnnnnn\nLinkedIn: Nandintsetseg Batsaikhan\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
     "objectID": "projects/index.html",
@@ -58,48 +72,6 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About Me",
-    "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\n[Your Degree] - [University Name], [Year]\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
-  },
-  {
-    "objectID": "about.html#skills-interests",
-    "href": "about.html#skills-interests",
-    "title": "About Me",
-    "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\n[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]\n[Other areas you’re curious about]"
-  },
-  {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
-    "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\nDescribe what you hope to achieve through your data science journey:\n\nShort-term learning objectives\nLong-term career aspirations\nTypes of problems you want to solve"
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About Me",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: your.email@example.com\nGitHub: github.com/your-username\nLinkedIn: linkedin.com/in/your-profile\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
-  },
-  {
     "objectID": "projects/data-acquisition.html",
     "href": "projects/data-acquisition.html",
     "title": "Data Acquisition Project",
@@ -118,5 +90,33 @@
     "crumbs": [
       "Final Project"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "index.html#about-this-portfolio",
+    "href": "index.html#about-this-portfolio",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+  },
+  {
+    "objectID": "index.html#skills-im-learning",
+    "href": "index.html#skills-im-learning",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Welcome to My Data Science Portfolio",
+    "section": "",
+    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   }
 ]
