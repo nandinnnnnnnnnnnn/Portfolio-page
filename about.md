@@ -2,46 +2,61 @@
 title: "About Me"
 ---
 
+
+# Nandintsetseg Batsaikhan  
+**Statistics (Data Science) @ BYU · CS & Math Minor**  
+**Email:** bnandin1@byu.edu · **GitHub:** [nandinnnnnnnnnnnn](https://github.com/nandinnnnnnnnnnnn) · **LinkedIn:** [Nandintsetseg Batsaikhan](https://www.linkedin.com/in/nandintsetseg-batsaikhan-b848061b9/)
+![Profile photo of Nandintsetseg Batsaikhan](images/profile.png)
+
+---
+
 ## Background
 
-Write a brief introduction about yourself here. Include:
+My name is **Nandintsetseg Batsaikhan**, and I am an undergraduate student at **Brigham Young University** majoring in **Statistics with a Data Science emphasis**, with minors in **Computer Science** and **Mathematics**. I am interested in data analysis, statistical modeling, and building data-driven applications that solve real-world problems.
 
-- Your academic background
-- Your interest in data science
-- Your career goals
-- Any relevant experience or projects
+My academic work has focused on probability, statistical inference, SQL databases, and programming in Python and R. My long-term goal is to work in a data-focused role where I can combine statistics, programming, and critical thinking to support decision-making.
+
+---
 
 ## Education
 
-- **[Your Degree]** - [University Name], [Year]
-- **Relevant Coursework**: Statistics, Data Analysis, Programming, etc.
+- **B.S. in Statistics (Data Science Emphasis)** – Brigham Young University, **Expected 2027**
+- **Minors**: Computer Science, Mathematics
+- **Relevant Coursework**: Probability & Inference, Statistical Modeling, Data Science, SQL & Databases, Programming in Python and R, Object Oriented Programming
+
+---
 
 ## Skills & Interests
 
 ### Technical Skills
-- **Programming**: Python
-- **Data Analysis**: Pandas, NumPy
-- **Visualization**: Matplotlib, Seaborn
-- **Machine Learning**: Scikit-learn
-- **Tools**: Jupyter Notebooks, Git/GitHub
+- **Programming**: Python, R, SQL, JavaScript, C
+- **Data Analysis**: Pandas, NumPy, statistical modeling, simulations
+- **Visualization**: ggplot2
+- **Web & Tools**: Git, GitHub, React, Node.js, Express
+- **Other**: Data cleaning, hypothesis testing
 
 ### Areas of Interest
-- [Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]
-- [Other areas you're curious about]
+- Data science and analytics
+- Statistical modeling and probability
+- Web applications with data-driven features
+- Applying data to real-world and social problems
+
+---
 
 ## Goals
 
-Describe what you hope to achieve through your data science journey:
+- Strengthen my foundation in statistical reasoning and data science tools
+- Build a strong portfolio of data analysis and software projects
+- Gain internship experience in data science, analytics, or related fields
+- Pursue a career where data, technology, and problem solving intersect
 
-- Short-term learning objectives
-- Long-term career aspirations
-- Types of problems you want to solve
+---
 
 ## Contact
 
-- **Email**: your.email@example.com
-- **GitHub**: [github.com/your-username](https://github.com/your-username)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- **Email**: bnandin1@byu.edu
+- **GitHub**: [github.com/nandinnnnnnnnnnnn](https://github.com/nandinnnnnnnnnnnn)
+- **LinkedIn**: [Nandintsetseg Batsaikhan](https://www.linkedin.com/in/nandintsetseg-batsaikhan-b848061b9/)
 
 ---
 
