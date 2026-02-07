@@ -17,6 +17,11 @@ My name is **Nandintsetseg Batsaikhan**, and I am an undergraduate student at **
 My academic work has focused on probability, statistical inference, SQL databases, and programming in Python and R. My long-term goal is to work in a data-focused role where I can combine statistics, programming, and critical thinking to support decision-making.
 
 ---
+## Get to Know Me
+
+I’m from Mongolia. Outside of school, I enjoy skiing, hiking, and watching movies. 
+
+---
 
 ## Education
 
@@ -26,7 +31,14 @@ My academic work has focused on probability, statistical inference, SQL database
 
 ---
 
-## Skills & Interests
+## Experience
+
+- **Web Developer — AMSA Website Project**  
+  Built front-end features using React, Node.js/Express, and Git/GitHub (authentication, admin functionality, blog management).
+
+
+- **Course Projects (Statistics & CS)**  
+  Completed data analysis, probability simulation, and SQL/database projects using Python and R.
 
 ### Technical Skills
 - **Programming**: Python, R, SQL, JavaScript, C
