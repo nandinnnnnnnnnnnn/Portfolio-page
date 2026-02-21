@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 ---
-![Victorization in Panda](/images/vectorization.png)
+![Diagram comparing looping vs vectorized operations in Pandas and NumPy](/images/vectorization.png)
 
 # Why Vectorization Makes Pandas 100x Faster
 
@@ -11,7 +11,9 @@ In statistical computing, performance matters. When working with large datasets 
 
 Vectorization is a powerful concept that allows operations to run much faster by applying computations to entire arrays at once instead of processing one element at a time.
 
-In this blog, I will explain the difference between loops and vectorization, demonstrate both approaches, compare their speed, and share my personal experience learning this concept in my statistics and data science classes.
+In this blog, I will explain the difference between loops and vectorization, demonstrate both approaches, compare their speed, and share my personal experience learning this concept in my statistics and data science classes. Vectorization is a core feature of NumPy. See the official
+[NumPy documentation on vectorization](https://numpy.org/doc/stable/user/absolute_beginners.html)
+for more examples.
 
 ---
 
@@ -63,7 +65,6 @@ What happens here:
 - It repeats this process many times
 
 This is inefficient because Python loops are slow.
-
 
 ---
 
