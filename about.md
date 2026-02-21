@@ -3,6 +3,7 @@ title: "About Me"
 ---
 
 
+
 # Nandintsetseg Batsaikhan  
 **Statistics (Data Science) @ BYU · CS & Math Minor**  
 **Email:** bnandin1@byu.edu · **GitHub:** [nandinnnnnnnnnnnn](https://github.com/nandinnnnnnnnnnnn) · **LinkedIn:** [Nandintsetseg Batsaikhan](https://www.linkedin.com/in/nandintsetseg-batsaikhan-b848061b9/)
@@ -17,8 +18,8 @@ My name is **Nandintsetseg Batsaikhan**, and I am an undergraduate student at **
 My academic work has focused on probability, statistical inference, SQL databases, and programming in Python and R. My long-term goal is to work in a data-focused role where I can combine statistics, programming, and critical thinking to support decision-making.
 
 ---
-## Get to Know Me
 
+## Get to Know Me
 I’m from Mongolia. Outside of school, I enjoy skiing, hiking, and watching movies. 
 
 ---
@@ -35,7 +36,6 @@ I’m from Mongolia. Outside of school, I enjoy skiing, hiking, and watching mov
 
 - **Web Developer — AMSA Website Project**  
   Built front-end features using React, Node.js/Express, and Git/GitHub (authentication, admin functionality, blog management).
-
 
 - **Course Projects (Statistics & CS)**  
   Completed data analysis, probability simulation, and SQL/database projects using Python and R.
