@@ -14,7 +14,7 @@ website:
       - text: "About Me"
         href: about.md
       - text: "Blog"
-        href: Blog.md
+        href: blog.md
       - text: "Projects"
         menu:
           - text: "All Projects"
