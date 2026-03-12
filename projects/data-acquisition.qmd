@@ -1,11 +1,38 @@
 ---
 title: "Data Acquisition Project"
-author: "Your Name"
-date: "2025-01-01"
+author: "Nandintsetseg Batsaikhan"
+date: "2026-03-11"
 format:
   html:
     code-fold: true
     toc: true
 ---
 
-This is coming down the pipeline. Check again later.
+##Building a Spotify Song Dataset with the Spotify API
+Introduction
+
+Music streaming platforms generate enormous amounts of data about songs, artists, and listening behavior. Spotify in particular provides a rich developer API that allows researchers and developers to access information about tracks, albums, and artists.
+
+For this project, I created an original dataset of Spotify tracks using the Spotify Web API. The goal was to practice collecting real-world data using APIs and to construct a dataset that could later be used for exploratory analysis or modeling.
+
+Many students in data science work with pre-existing datasets, but collecting data directly from an API provides a better understanding of how real datasets are generated. APIs also introduce practical considerations such as rate limits, authentication, and data cleaning.
+
+This project demonstrates how to use the Spotify API to programmatically gather song information and convert the raw API responses into a structured dataset.
+
+Motivating Question
+
+The motivating question behind this project is:
+
+What characteristics of songs appear in Spotify’s catalog, and how might they relate to song popularity or listening trends?
+
+Although this post focuses on dataset creation rather than full analysis, the dataset could later be used to explore questions such as:
+
+Are longer songs less popular?
+
+Do certain artists dominate search results?
+
+Are particular albums more frequently represented?
+
+What patterns appear across song metadata such as duration or explicit content?
+
+Creating a dataset of songs allows us to begin exploring these types of questions.
