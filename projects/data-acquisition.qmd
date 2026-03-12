@@ -10,6 +10,7 @@ format:
 
 ##Building a Spotify Song Dataset with the Spotify API
 Introduction
+---
 
 Music streaming platforms generate enormous amounts of data about songs, artists, and listening behavior. Spotify in particular provides a rich developer API that allows researchers and developers to access information about tracks, albums, and artists.
 
@@ -19,7 +20,7 @@ Many students in data science work with pre-existing datasets, but collecting da
 
 This project demonstrates how to use the Spotify API to programmatically gather song information and convert the raw API responses into a structured dataset.
 
-Motivating Question
+###Motivating Question
 
 The motivating question behind this project is:
 
@@ -27,12 +28,12 @@ What characteristics of songs appear in Spotify’s catalog, and how might they 
 
 Although this post focuses on dataset creation rather than full analysis, the dataset could later be used to explore questions such as:
 
-Are longer songs less popular?
+- Are longer songs less popular?
 
-Do certain artists dominate search results?
+- Do certain artists dominate search results?
 
-Are particular albums more frequently represented?
+- Are particular albums more frequently represented?
 
-What patterns appear across song metadata such as duration or explicit content?
+- What patterns appear across song metadata such as duration or explicit content?
 
-Creating a dataset of songs allows us to begin exploring these types of questions.
+- Creating a dataset of songs allows us to begin exploring these types of questions.
