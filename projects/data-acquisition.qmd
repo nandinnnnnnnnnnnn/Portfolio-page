@@ -1,39 +1,177 @@
 ---
-title: "Data Acquisition Project"
+title: "Collecting Spotify Track Data with the Spotify API"
 author: "Nandintsetseg Batsaikhan"
 date: "2026-03-11"
-format:
-  html:
-    code-fold: true
-    toc: true
+categories: [data-curation, APIs, python, spotify]
 ---
 
-##Building a Spotify Song Dataset with the Spotify API
-Introduction
+## Introduction
+
+Music streaming platforms generate massive amounts of data about songs, artists, and listening behavior. Spotify alone hosts tens of millions of tracks, each with metadata such as artist, album, release date, and track length. For students learning data science, APIs provide a powerful way to collect this type of real-world data and transform it into a usable dataset.
+
+In this project, I used the **Spotify Web API** to build an original dataset of Spotify tracks. Instead of downloading an existing dataset, I collected the data myself using Python and the Spotify search endpoint. The result is a curated dataset containing **hundreds of tracks gathered from multiple search queries** across different genres and release years.
+
+This project demonstrates how APIs can be used to create a dataset from scratch and how raw API data can be cleaned and transformed into a structured dataset suitable for analysis.
+
 ---
 
-Music streaming platforms generate enormous amounts of data about songs, artists, and listening behavior. Spotify in particular provides a rich developer API that allows researchers and developers to access information about tracks, albums, and artists.
+## Motivating Question
 
-For this project, I created an original dataset of Spotify tracks using the Spotify Web API. The goal was to practice collecting real-world data using APIs and to construct a dataset that could later be used for exploratory analysis or modeling.
+When collecting data using the Spotify search API, the results depend heavily on the search query used. Queries like `genre:pop`, `genre:rock`, or `year:2024` can return very different sets of tracks.
 
-Many students in data science work with pre-existing datasets, but collecting data directly from an API provides a better understanding of how real datasets are generated. APIs also introduce practical considerations such as rate limits, authentication, and data cleaning.
+This motivated the central question of this project:
 
-This project demonstrates how to use the Spotify API to programmatically gather song information and convert the raw API responses into a structured dataset.
+**How do characteristics of Spotify tracks—such as duration, release year, and explicit content—vary across different search categories?**
 
-###Motivating Question
+Understanding these differences can help illustrate how search queries influence the types of songs returned by the Spotify API.
 
-The motivating question behind this project is:
+---
 
-What characteristics of songs appear in Spotify’s catalog, and how might they relate to song popularity or listening trends?
+## Ethical Data Collection
 
-Although this post focuses on dataset creation rather than full analysis, the dataset could later be used to explore questions such as:
+Before collecting the data, it was important to ensure that using the Spotify API was allowed and done responsibly.
 
-- Are longer songs less popular?
+The dataset was gathered using the official **Spotify Web API**, which is designed specifically for developers to access Spotify data programmatically. Spotify provides public documentation and authentication methods for accessing their endpoints.
 
-- Do certain artists dominate search results?
+To follow good data collection practices:
 
-- Are particular albums more frequently represented?
+- I used the **official API authentication method** through a Spotify developer application.
+- No private user data was collected.
+- Requests were spaced with small delays to avoid excessive API calls.
+- API credentials were stored in a `.env` file and were **not uploaded to GitHub**.
 
-- What patterns appear across song metadata such as duration or explicit content?
+More information about the API can be found in the Spotify developer documentation:
 
-- Creating a dataset of songs allows us to begin exploring these types of questions.
+[Spotify Web API Documentation](https://developer.spotify.com/documentation/web-api/)
+
+---
+
+## How the Data Was Collected
+
+The dataset was collected using Python and the **Spotipy** library, which provides a convenient interface for interacting with the Spotify API.
+
+The general steps were:
+
+1. **Create a Spotify developer application**
+   - Obtain a `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET`.
+
+2. **Authenticate using the Spotipy library**
+   - Credentials are loaded securely from a `.env` file.
+
+3. **Use the Spotify search endpoint**
+   - Multiple search queries were used to diversify the dataset.
+
+4. **Collect multiple pages of results**
+   - The Spotify API returns results in pages, so offsets were used to retrieve additional tracks.
+
+5. **Store the results in a structured dataset**
+   - Track information was saved to a CSV file.
+
+The main search queries used included:
+
+- `year:2024`
+- `year:2023`
+- `year:2022`
+- `genre:pop`
+- `genre:rock`
+- `genre:jazz`
+- `genre:hip-hop`
+
+Using multiple queries allowed the dataset to include a wider range of tracks rather than relying on a single search category.
+
+The raw dataset was saved to:
+data/raw/spotify_tracks.csv
+
+
+---
+
+## Data Cleaning and Transformations
+
+The raw API data required several transformations before it could be used as a clean dataset.
+
+The following steps were applied:
+
+- **Duplicate tracks were removed** using the `track_id`.
+- **Release year was extracted** from the `release_date` field.
+- **Track duration was converted** from milliseconds to minutes.
+- **Explicit content was converted** to a numeric indicator (`0` or `1`).
+- Rows with missing essential metadata were removed.
+
+The cleaned dataset was saved to: data/processed/spotify_clean.csv
+
+
+These transformations helped standardize the dataset and create additional useful variables.
+
+---
+
+## Final Dataset Overview
+
+The final dataset contains **over 500 Spotify tracks** gathered through the Spotify API.
+
+### Dataset Size
+
+- **Observations:** ~500 tracks  
+- **Variables:** 9–10 features  
+
+### Data Dictionary
+
+| Variable | Description |
+|--------|-------------|
+| `track_id` | Unique Spotify identifier |
+| `track_name` | Name of the track |
+| `artist` | Artist name(s) |
+| `album` | Album the track belongs to |
+| `release_date` | Original release date |
+| `duration_ms` | Track length in milliseconds |
+| `explicit` | Whether the track is marked explicit (1 = yes, 0 = no) |
+| `search_query` | Query used to retrieve the track |
+| `release_year` | Year extracted from release date |
+| `duration_min` | Track duration converted to minutes |
+
+The dataset includes several **numeric variables**, including track duration and release year, which allow for further exploration and analysis.
+
+---
+
+## Data Quality Considerations
+
+Like many datasets collected through APIs, this dataset has some limitations.
+
+First, the dataset is **not a random sample of all Spotify songs**. Instead, it reflects the tracks returned by the Spotify search system for the chosen queries.
+
+Second, search results may be influenced by Spotify’s internal ranking algorithms. This means the tracks returned may not represent the full distribution of songs in a given genre or year.
+
+Third, genre-based searches can sometimes return unexpected or loosely related results because Spotify’s search engine does not strictly enforce genre categories.
+
+Despite these limitations, the dataset still provides a useful example of how API-based data collection works and how search queries can shape the resulting dataset.
+
+---
+
+## Project Repository
+
+The full project code used to collect and clean the dataset is available on GitHub:
+
+**GitHub Repository:**  
+[Insert your GitHub repo link here]
+
+The repository contains:
+
+- Python scripts for collecting Spotify data
+- Data cleaning scripts
+- The curated dataset
+- Documentation explaining how to reproduce the dataset
+
+---
+
+## Conclusion
+
+This project demonstrates how APIs can be used to build a dataset from scratch. By using the Spotify Web API, I was able to gather hundreds of tracks and organize them into a structured dataset suitable for analysis.
+
+The project also highlights an important lesson in data science: **the way data is collected can strongly influence the patterns we observe**. Because the dataset was built using search queries, the resulting tracks reflect how Spotify’s search system categorizes and ranks songs.
+
+For students interested in working with real-world data, APIs provide an excellent opportunity to move beyond prebuilt datasets and create their own.
+
+Future work could extend this project by collecting additional Spotify features such as audio characteristics (danceability, energy, tempo) or by comparing playlists, artists, or listening trends across genres.
+
+Overall, this project provides a practical introduction to **API-based data collection, dataset curation, and data cleaning using Python**.
+
+
