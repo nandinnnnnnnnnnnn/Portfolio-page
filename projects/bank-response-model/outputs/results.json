@@ -1,0 +1,98 @@
+{
+  "quality": {
+    "rows": 41188,
+    "columns": 21,
+    "positive_count": 4640,
+    "positive_rate": 0.11265,
+    "source_zip_sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4"
+  },
+  "split": {
+    "train": 26360,
+    "validation": 6590,
+    "test": 8238,
+    "train_positive_rate": 0.0479,
+    "validation_positive_rate": 0.1272,
+    "test_positive_rate": 0.3083
+  },
+  "selection": [
+    {
+      "C": 0.01,
+      "validation_average_precision": 0.1365
+    },
+    {
+      "C": 0.1,
+      "validation_average_precision": 0.1365
+    },
+    {
+      "C": 1.0,
+      "validation_average_precision": 0.1361
+    }
+  ],
+  "selected_C": 0.01,
+  "baseline": {
+    "average_precision": 0.3083,
+    "roc_auc": 0.5,
+    "brier": 0.2731
+  },
+  "model": {
+    "average_precision": 0.5383,
+    "roc_auc": 0.7012,
+    "brier": 0.217
+  },
+  "top_decile": {
+    "selected": 824,
+    "responses": 547,
+    "precision": 0.6638,
+    "recall": 0.2154
+  },
+  "largest_absolute_coefficients": [
+    {
+      "term": "categorical__month_may",
+      "log_odds_coefficient": -0.481
+    },
+    {
+      "term": "categorical__month_mar",
+      "log_odds_coefficient": 0.422
+    },
+    {
+      "term": "categorical__month_oct",
+      "log_odds_coefficient": 0.36
+    },
+    {
+      "term": "categorical__month_nov",
+      "log_odds_coefficient": -0.333
+    },
+    {
+      "term": "numeric__cons.conf.idx",
+      "log_odds_coefficient": -0.249
+    },
+    {
+      "term": "categorical__job_retired",
+      "log_odds_coefficient": 0.243
+    },
+    {
+      "term": "numeric__emp.var.rate",
+      "log_odds_coefficient": -0.22
+    },
+    {
+      "term": "numeric__nr.employed",
+      "log_odds_coefficient": -0.198
+    },
+    {
+      "term": "categorical__job_student",
+      "log_odds_coefficient": 0.161
+    },
+    {
+      "term": "numeric__pdays",
+      "log_odds_coefficient": -0.146
+    },
+    {
+      "term": "categorical__month_jun",
+      "log_odds_coefficient": -0.146
+    },
+    {
+      "term": "numeric__euribor3m",
+      "log_odds_coefficient": 0.145
+    }
+  ]
+}

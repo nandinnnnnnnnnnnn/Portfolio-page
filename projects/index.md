@@ -1,14 +1,13 @@
 ---
-title: "Projects Overview"
+title: "Projects"
 ---
 
-## All Projects
+## Completed, reproducible analyses
 
-### [Exploratory Data Analysis Project](eda.qmd)
-**Description**: Pick a dataset and explore it to discover insights and answer questions.
+- [Capital Bikeshare operations analysis](eda.qmd): Python ingestion and quality checks, SQLite queries, chart, and documented operational limits.
+- [Bank campaign response modeling](final-project.qmd): chronological split, constant baseline, logistic regression, held-out metrics, and drift discussion.
 
-### [Data Acquisition Project](data-acquisition.qmd)
-**Description**: Find an interesting data source, collect the data, and prepare it for analysis.
+## Other work
 
-### [Final Project](final-project.qmd)
-**Description**: A comprehensive project that shows off my data science skills.
+- [Spotify API collection notes](data-acquisition.qmd): an earlier write-up; the scripts and dataset have not been provided here for reproduction.
+- [CircleCheck](https://github.com/nandinnnnnnnnnnnn/circlecheck-unesco-2026): multilingual media literacy web prototype, not an AI detection model or an official UNESCO project.

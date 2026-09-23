@@ -20,11 +20,11 @@ website:
           - text: "All Projects"
             href: projects/index.md
           - text: "---"
-          - text: "Exploratory Data Analysis"
+          - text: "Bikeshare Operations"
             href: projects/eda.qmd
-          - text: "Data Acquisition"
+          - text: "Spotify Collection Notes"
             href: projects/data-acquisition.qmd
-          - text: "Final Project"
+          - text: "Bank Response Modeling"
             href: projects/final-project.qmd
     right:
       - icon: github

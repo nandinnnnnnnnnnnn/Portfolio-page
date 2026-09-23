@@ -1,11 +1,14 @@
 ---
-title: "Final Project"
-author: "Your Name"
-date: "2025-01-01"
-format:
-  html:
-    code-fold: true
-    toc: true
+title: "Bank Campaign Response Modeling"
+author: "Nandin Lowder"
 ---
 
-This is coming down the pipeline. Check again later.
+# Can pre-call data rank likely responses?
+
+I used the date-ordered [UCI Bank Marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing) (CC BY 4.0) to evaluate a logistic model against a constant-prevalence baseline. I excluded call duration because it is unknown before the call. The [reproducible code](https://github.com/nandinnnnnnnnnnnn/Portfolio-page/tree/main/projects/bank-response-model) selects regularization on a later validation segment and tests once on the latest 20%.
+
+![Held-out precision-recall curve](bank-response-model/outputs/precision_recall.svg)
+
+On **8,238** held-out rows, average precision was **0.5383** for logistic regression and **0.3083** for the constant baseline. ROC AUC was **0.7012** versus **0.5000**. The top-scored 10% contained **547** positives among **824** records.
+
+The positive rate changed from **4.79%** in training to **12.72%** in validation and **30.83%** in test. Exact dates, customer IDs, and costs are unavailable, so these are retrospective ranking results, not a contact policy or business lift estimate. [Read the full case study](https://github.com/nandinnnnnnnnnnnn/Portfolio-page/blob/main/projects/bank-response-model/CASE_STUDY.md).

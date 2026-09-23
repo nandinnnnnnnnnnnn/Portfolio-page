@@ -1,11 +1,16 @@
 ---
-title: "EDA Project"
-author: "Your Name"
-date: "2025-01-01"
-format:
-  html:
-    code-fold: true
-    toc: true
+title: "Capital Bikeshare Operations Analysis"
+author: "Nandin Lowder"
 ---
 
-This is coming down the pipeline. Check again later.
+# When does hourly demand concentrate?
+
+**Question:** Which hours merit a closer capacity review on working versus nonworking days?
+
+I used the [UCI Bike Sharing dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset) (CC BY 4.0). A [reproducible Python/SQLite analysis](https://github.com/nandinnnnnnnnnnnn/Portfolio-page/tree/main/projects/bikeshare-operations) validates the hourly data and ranks average rentals by observed hour. The original data cover 2011–2012.
+
+![Mean rentals by hour and day type](bikeshare-operations/outputs/hourly_profiles.svg)
+
+Working days peak at **17:00**, averaging **525.29** rentals over **499** observed hours. Nonworking days peak at **13:00**, averaging **372.73** over **231** hours. Across **17,379** rows, there are **165** missing date/hour combinations; the pipeline reports them and does not invent zeros.
+
+The results suggest reviewing working-day commute windows and nonworking-day midday capacity. They cannot prescribe station-level changes or quantify impact because the data contain no station availability, unmet demand, or intervention outcomes. [Read the full case study](https://github.com/nandinnnnnnnnnnnn/Portfolio-page/blob/main/projects/bikeshare-operations/CASE_STUDY.md).
