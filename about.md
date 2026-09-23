@@ -4,16 +4,16 @@ title: "About Me"
 
 
 
-# Nandintsetseg Batsaikhan  
+# Nandin Lowder  
 **Statistics (Data Science) @ BYU · CS & Math Minor**  
-**Email:** bnandin1@byu.edu · **GitHub:** [nandinnnnnnnnnnnn](https://github.com/nandinnnnnnnnnnnn) · **LinkedIn:** [Nandintsetseg Batsaikhan](https://www.linkedin.com/in/nandintsetseg-batsaikhan-b848061b9/)
-![Profile photo of Nandintsetseg Batsaikhan](images/profile.png)
+**Email:** bnandin1@byu.edu · **GitHub:** [nandinnnnnnnnnnnn](https://github.com/nandinnnnnnnnnnnn) · **LinkedIn:** [Nandin Lowder](https://www.linkedin.com/in/nandintsetseg-batsaikhan-b848061b9/)
+![Profile photo of Nandin Lowder](images/profile.png)
 
 ---
 
 ## Background
 
-My name is **Nandintsetseg Batsaikhan**, and I am an undergraduate student at **Brigham Young University** majoring in **Statistics with a Data Science emphasis**, with minors in **Computer Science** and **Mathematics**. I am interested in data analysis, statistical modeling, and building data-driven applications that solve real-world problems.
+My name is **Nandin Lowder**, and I am an undergraduate student at **Brigham Young University** majoring in **Statistics with a Data Science emphasis**, with minors in **Computer Science** and **Mathematics**. I am interested in data analysis, statistical modeling, and building data-driven applications that solve real-world problems.
 
 My academic work has focused on probability, statistical inference, SQL databases, and programming in Python and R. My long-term goal is to work in a data-focused role where I can combine statistics, programming, and critical thinking to support decision-making.
 
@@ -26,7 +26,7 @@ I’m from Mongolia. Outside of school, I enjoy skiing, hiking, and watching mov
 
 ## Education
 
-- **B.S. in Statistics (Data Science Emphasis)** – Brigham Young University, **Expected 2027**
+- **B.S. in Statistics (Data Science Emphasis)** – Brigham Young University, **Expected April 2027**
 - **Minors**: Computer Science, Mathematics
 - **Relevant Coursework**: Probability & Inference, Statistical Modeling, Data Science, SQL & Databases, Programming in Python and R, Object Oriented Programming
 
@@ -68,7 +68,7 @@ I’m from Mongolia. Outside of school, I enjoy skiing, hiking, and watching mov
 
 - **Email**: bnandin1@byu.edu
 - **GitHub**: [github.com/nandinnnnnnnnnnnn](https://github.com/nandinnnnnnnnnnnn)
-- **LinkedIn**: [Nandintsetseg Batsaikhan](https://www.linkedin.com/in/nandintsetseg-batsaikhan-b848061b9/)
+- **LinkedIn**: [Nandin Lowder](https://www.linkedin.com/in/nandintsetseg-batsaikhan-b848061b9/)
 
 ---
 

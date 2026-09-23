@@ -1,6 +1,6 @@
 ---
 title: "Collecting Spotify Track Data with the Spotify API"
-author: "Nandintsetseg Batsaikhan"
+author: "Nandin Lowder"
 date: "2026-03-11"
 categories: [data-curation, APIs, python, spotify]
 ---
@@ -146,32 +146,6 @@ Despite these limitations, the dataset still provides a useful example of how AP
 
 ---
 
-## Project Repository
+## Reproducibility status
 
-The full project code used to collect and clean the dataset is available on GitHub:
-
-**GitHub Repository:**  
-[Insert your GitHub repo link here]
-
-The repository contains:
-
-- Python scripts for collecting Spotify data
-- Data cleaning scripts
-- The curated dataset
-- Documentation explaining how to reproduce the dataset
-
----
-
-## Conclusion
-
-This project demonstrates how APIs can be used to build a dataset from scratch. By using the Spotify Web API, I was able to gather hundreds of tracks and organize them into a structured dataset suitable for analysis.
-
-The project also highlights an important lesson in data science: **the way data is collected can strongly influence the patterns we observe**. Because the dataset was built using search queries, the resulting tracks reflect how Spotify’s search system categorizes and ranks songs.
-
-For students interested in working with real-world data, APIs provide an excellent opportunity to move beyond prebuilt datasets and create their own.
-
-Future work could extend this project by collecting additional Spotify features such as audio characteristics (danceability, energy, tempo) or by comparing playlists, artists, or listening trends across genres.
-
-Overall, this project provides a practical introduction to **API-based data collection, dataset curation, and data cleaning using Python**.
-
-
+This page documents an earlier collection exercise, but the original Python scripts and raw/processed CSV files are not present in this repository. The reported 500+ records and collection process cannot be independently verified here. The previous repository link was a placeholder and has been removed. This page should be read as collection notes rather than a reproducible project result. A future revision would need the source code, API access instructions, a dataset or lawful regeneration path, checks, and verified outputs.

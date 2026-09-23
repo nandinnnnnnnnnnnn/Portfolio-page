@@ -1,49 +1,19 @@
 ---
-title: "Welcome to My Data Science Portfolio"
+title: "Nandin Lowder | Data Science Portfolio"
 ---
 
-# Hello! I'm Nandintsetseg Bastaikhan 
+# Nandin Lowder
 
-Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.
+Statistics (Data Science emphasis) student at Brigham Young University, graduating April 2027. I work with Python, SQL, R, and web tools to turn data into decisions and evaluate models carefully.
 
-## About This Portfolio
+## Featured projects
 
-This portfolio shows my work learning data science. Each project includes:
+### [Capital Bikeshare operations analysis](projects/eda.qmd)
+A documented UCI data download, checked Python-to-SQLite pipeline, SQL demand profiles, and a decision-focused chart. [Reproducible code](https://github.com/nandinnnnnnnnnnnn/Portfolio-page/tree/main/projects/bikeshare-operations).
 
-- My code with documentation
-- Visualizations I created
-- What I learned and discovered
+### [Bank campaign response modeling](projects/final-project.qmd)
+A chronological evaluation of a pre-call logistic model against a constant baseline, with the dataset's prevalence shift and limitations made explicit. [Reproducible code](https://github.com/nandinnnnnnnnnnnn/Portfolio-page/tree/main/projects/bank-response-model).
 
-I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pages](https://pages.github.com/).
+## Other work
 
-## Skills I'm Learning
-
-- **Programming**: Python, Pandas for data analysis
-- **Visualization**: Creating charts with Matplotlib and Seaborn
-- **Data Collection**: Getting data from files, websites, and APIs
-- **Analysis**: Finding patterns and answering questions with data
-
-## My Projects
-
-::: {.grid}
-
-::: {.g-col-6}
-### [Data Exploration Project](projects/eda.qmd)
-Learn how I explore datasets to find interesting patterns and answer questions.
-:::
-
-::: {.g-col-6}
-### [Data Collection Project](projects/data-acquisition.qmd)
-See how I gather data from different sources and prepare it for analysis.
-:::
-
-::: {.g-col-6}
-### [Final Project](projects/final-project.qmd)
-See how I tackle a data science project beginning to end.
-:::
-
-:::
-
----
-
-*Thanks for visiting! Feel free to explore my projects and see what I'm learning.*
+[CircleCheck](https://github.com/nandinnnnnnnnnnnn/circlecheck-unesco-2026) is a multilingual media literacy web prototype for older adults. [Spotify API collection notes](projects/data-acquisition.qmd) document an earlier exercise; its underlying scripts and data are not currently in this repository.
